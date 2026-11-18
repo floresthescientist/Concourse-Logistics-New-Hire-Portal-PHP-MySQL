@@ -1,0 +1,36 @@
+/* concourse logistics new hire portal */
+/* styles for index.php */
+
+/* page and header */
+body { font-family: Arial, sans-serif; background: #f2f4f7; margin: 0; color: #222; }
+header { background: #0f5d63; color: white; padding: 20px 30px; }
+header h1 { margin: 0; }
+
+/* layout for the form box and the directory box */
+.container { display: flex; flex-wrap: wrap; gap: 25px; padding: 25px 30px; }
+.box { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 20px; }
+.form-box { width: 320px; }
+.list-box { flex: 1; min-width: 0; overflow-x: auto; }
+
+/* form fields and buttons */
+label { display: block; font-weight: bold; margin-top: 12px; }
+input, select { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+button { margin-top: 18px; width: 100%; padding: 10px; background: #0f5d63;
+         color: white; border: none; border-radius: 5px; font-size: 15px; cursor: pointer; }
+
+/* search bar above the employee table */
+.search { display: flex; gap: 10px; align-items: center; margin-bottom: 15px; }
+.search button { width: auto; margin-top: 0; padding: 8px 16px; }
+
+/* error and success messages */
+.error   { background: #fdecec; color: #a12a2a; padding: 10px; border-radius: 5px; }
+.success { background: #e7f6ee; color: #1d6b45; padding: 10px; border-radius: 5px; }
+
+/* employee count for each department */
+.counts span { display: inline-block; background: #e8f1f2; padding: 6px 12px;
+               border-radius: 5px; margin: 0 6px 8px 0; }
+
+/* employee directory table */
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
+th { background: #f7f7f7; }
